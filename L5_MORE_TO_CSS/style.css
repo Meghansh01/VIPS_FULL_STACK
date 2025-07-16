@@ -1,0 +1,41 @@
+/* #parent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    gap: 30px;
+    margin: 0%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+#child1{
+    height:5500px;
+    width:505px;
+    background-color: blue;
+    margin-top: 6px;
+    margin-left: 6px;
+    transition: all is ease-out;
+}
+#child1:hover{
+    background-color: aqua;
+    height: 500px;
+    width: 800px;
+    
+    display: flex;
+    
+    background-image: url(https://www.shutterstock.com/image-photo/musician-sean-pdiddy-combs-arrives-260nw-235466173.jpg);
+}
+#child2{
+    height:552px;
+    width: 55px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: aliceblue;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
