@@ -1,0 +1,50 @@
+.box{
+    height:200px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height:150px;
+    width:130px;
+    background-color: yellow;
+    
+}
+/* b{
+    display:none;
+} */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-text {
+    font-style: italic;
+    color: #222222;
+}
+
+#position-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    width: 100px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+}
+
+#position-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Image styles are set inline in JS for fixed position and size */

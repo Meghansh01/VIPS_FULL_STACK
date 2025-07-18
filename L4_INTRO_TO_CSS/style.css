@@ -560,6 +560,10 @@ body {
 }
 
 #get-started {
+  background-image: url("https://storage.googleapis.com/cms-storage-bucket/get-started-background.72521e62275b24d3c37d.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right end;
   display: flex;
   justify-content: space-between;
   align-items: center;
