@@ -1,13 +1,13 @@
-// const btn = document.querySelector(".Button")
+const btn = document.querySelector(".Button")
 
-// btn.addEventListener("click", ()=>{
-//     let parent = btn.parentElement
-//     console.log(parent);
+btn.addEventListener("click", ()=>{
+    let parent = btn.parentElement
+    console.log(parent);
 
-//     parent.style.height="100px"
-//     parent.style.width="50px"
-//     parent.style.backgroundColor="green"
-// });
+    parent.style.height="100px"
+    parent.style.width="50px"
+    parent.style.backgroundColor="green"
+});
 
 const list = document.querySelector(".list");
 list.addEventListener("click",()=>{
