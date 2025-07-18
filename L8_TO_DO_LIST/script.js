@@ -17,4 +17,6 @@ list.addEventListener("click",()=>{
     console.log(list.lastChild);
     console.log(list.nextElementSibling);
     console.log(list.previousElementSibling);
+    list.removeAttribute("class")
+    console.log(list.id);
 })
